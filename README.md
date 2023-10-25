@@ -6,12 +6,12 @@
 ## Introduction
 
 This software package provides a C++ interface to communicate with the mobile platforms, for sending commands to the
-robot and receiving the latest robot state. The repository is a joint effort by the development teams at Weston Robot (Singapore) and AgileX Robotics (China).
+robot and receiving the latest robot state. The repository is a joint effort by the development teams at Weston Robot (Singapore) and AgileX Robotics (China).This repository is a fork of the original ugv_sdk and modified by InDro Robotics.
 
 - Copyright (c) 2020-2023 [Weston Robot](https://www.westonrobot.com/)
 - Copyright (c) 2020-2023 [AgileX Robotics](http://www.agilex.ai/?lang=zh-cn)
-
-Please create an issue on Github at https://github.com/westonrobot/ugv_sdk/issues if you encounter any problems when
+-Modifications done by [InDro Robotics](https://www.indrorobotics.ca/)
+Please create an issue on Github at (https://github.com/indro-robotics/ugv_sdk/issues ) if you encounter any problems when
 using the packages.
 
 ## Supported Platforms
@@ -57,7 +57,7 @@ $ sudo apt-get install build-essential git cmake libasio-dev
 
 ```
 $ cd <your-catkin-ws>/src
-$ git clone https://github.com/westonrobot/ugv_sdk.git
+$ git clone https://github.com/indro-robotics/ugv_sdk.git
 $ cd ..
 $ catkin_make
 ```
